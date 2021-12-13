@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Nightcap" translatesAutoresizingMaskIntoConstraints="NO" id="4dy-XC-DOp">
+                                <rect key="frame" x="-793" y="208" width="2000" height="236"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="236" id="EZ1-yD-yhp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="H7q-My-2nW">
+                                <rect key="frame" x="186.5" y="777" width="41" height="24"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yushu Guo - FIT3178" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4Fn-8t-2fe">
+                                <rect key="frame" x="128" y="828" width="158" height="24"/>
+                                <fontDescription key="fontDescription" name="KohinoorBangla-Semibold" family="Kohinoor Bangla" pointSize="17"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wearing a nightcap to sleep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fsg-hD-u6n">
+                                <rect key="frame" x="100" y="490" width="214" height="36"/>
+                                <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fsg-hD-u6n" firstAttribute="top" secondItem="4dy-XC-DOp" secondAttribute="bottom" constant="46" id="4hv-6N-Ldb"/>
+                            <constraint firstItem="4dy-XC-DOp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7L6-N4-1Re"/>
+                            <constraint firstItem="4Fn-8t-2fe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="FVv-98-CDR"/>
+                            <constraint firstItem="fsg-hD-u6n" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Wc4-e7-Q5e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4Fn-8t-2fe" secondAttribute="bottom" constant="10" id="jSQ-6a-t7r"/>
+                            <constraint firstItem="4Fn-8t-2fe" firstAttribute="top" secondItem="H7q-My-2nW" secondAttribute="bottom" constant="27" id="oV1-9i-YWl"/>
+                            <constraint firstItem="H7q-My-2nW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="tk9-ec-WQR"/>
+                            <constraint firstItem="4dy-XC-DOp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="164" id="umv-3G-EbZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Nightcap" width="2000" height="2000"/>
+    </resources>
+</document>
